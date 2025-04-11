@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <a href="Kimi-VL.pdf"><img src="figures/logo.png" height="16" width="16" style="vertical-align:middle"><b> Tech Report</b></a>  |  
+  <a href="https://arxiv.org/abs/2504.07491"><img src="figures/logo.png" height="16" width="16" style="vertical-align:middle"><b> Tech Report</b></a>  |  
   <a href="https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" height="16" width="16" style="vertical-align:middle"><b> HuggingFace</b>
   </a> |
   <a href="https://huggingface.co/spaces/moonshotai/Kimi-VL-A3B-Thinking/">💬 Chat Web</a>
