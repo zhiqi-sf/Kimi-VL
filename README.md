@@ -45,6 +45,12 @@ The model adopts an MoE language model, a native-resolution visual encoder (Moon
 
 </div>
 
+> [!Note]
+> Recommended parameter settings:
+> - For **Thinking models**, it is recommended to use `Temperature = 0.6`. 
+> - For **Instruct models**, it is recommended to use `Temperature = 0.2`. 
+
+
 ### Huggingface Demo
 
 Welcome to chat with the **Kimi-VL-A3B-Thinking** model on <a href="https://huggingface.co/spaces/moonshotai/Kimi-VL-A3B-Thinking/">Chat Web</a>.
@@ -65,24 +71,8 @@ With effective long-thinking abilitites, Kimi-VL-A3B-Thinking can match the perf
   <img width="100%" src="figures/thinking_perf.png">
 </div>
 
-## 5. Model Download
 
-<div align="center">
-
-| **Model** | **#Total Params** | **#Activated Params** | **Context Length** | **Download Link** |
-| :------------: | :------------: | :------------: | :------------: | :------------: |
-| Kimi-VL-A3B-Instruct | 16B | 3B | 128K   | [🤗 Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct)   |
-| Kimi-VL-A3B-Thinking  | 16B | 3B |  128K   | [🤗 Hugging Face](https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking)   |
-
-</div>
-
-
-> [!Note]
-> Recommended parameter settings:
-> - For **Thinking models**, it is recommended to use `Temperature = 0.6`. 
-> - For **Instruct models**, it is recommended to use `Temperature = 0.2`. 
-
-## 6. Example usage
+## 5. Example usage
 
 ### Setup
 
@@ -188,13 +178,13 @@ response = processor.batch_decode(
 print(response)
 ```
 
-## 7. Deployment
+## 6. Deployment
 
 ### Using vLLM
 
 We have submitted a Merge Request [#16387](https://github.com/vllm-project/vllm/pull/16387) to vLLM. You are welcome to deploy Kimi-VL using the branch corresponding to the vLLM MR until the MR is merged.
 
-## 8. Citation
+## 7. Citation
 
 ```
 @misc{kimiteam2025kimivltechnicalreport,
