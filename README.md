@@ -80,7 +80,7 @@ With effective long-thinking abilitites, Kimi-VL-A3B-Thinking can match the perf
 > [!Note]
 > Recommended parameter settings:
 > - For **Thinking models**, it is recommended to use `Temperature = 0.6`. 
-> - For **Instruct models**, it is also recommended to use `Temperature = 0.6`. 
+> - For **Instruct models**, it is also recommended to use `Temperature = 0.2`. 
 
 ## 6. Example usage
 
