@@ -51,9 +51,11 @@ The model adopts an MoE language model, a native-resolution visual encoder (Moon
 > - For **Instruct models**, it is recommended to use `Temperature = 0.2`. 
 
 
-### Huggingface Demo
+### Hugging Face Demo
 
-Welcome to chat with the **Kimi-VL-A3B-Thinking** model on <a href="https://huggingface.co/spaces/moonshotai/Kimi-VL-A3B-Thinking/">Chat Web</a>.
+> 🤗 We serve our model demo in Hugging Face spaces:
+> - Chat with **Kimi-VL-A3B-Thinking**👀🤔🗺️ (featuring thinking, math, puzzle solving) model on <a href="https://huggingface.co/spaces/moonshotai/Kimi-VL-A3B-Thinking/">Chat Web</a>.
+> - Chat with **Kimi-VL-A3B-Instruct**💻🎬📕 (featuring agent, video, multi-page document) model on <a href="https://huggingface.co/spaces/moonshotai/Kimi-VL-A3B/">Chat Web</a>.
 
 ## 4. Performance
 
